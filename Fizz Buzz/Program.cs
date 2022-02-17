@@ -84,13 +84,6 @@
 
             do
             {
-                /* if (Convert.ToDouble(num) >= 1000)
-                {
-                    Console.Write("This number is too big.\nPlease choose a smaller number: ");
-                    num = ValidateNum();
-                    continue;
-                } */
-
                 if (i % 3 == 0 && i % 5 != 0)
                 {
                     Console.Write("Fizz! ");
