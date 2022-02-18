@@ -108,11 +108,11 @@
         {
             Console.Write("Please choose a number to FizzBuzz: ");
 
-            string? num = ValidateNum();
+            string? numIsValid = ValidateNum();
 
-            FizzedAndBuzzed(num);
+            FizzedAndBuzzed(numIsValid);
 
-            Console.Write($"\nYou've sucessfully FizzBuzzed the number {num}.");
+            Console.Write($"\nYou've sucessfully FizzBuzzed the number {numIsValid}.");
         }
     }
 }
